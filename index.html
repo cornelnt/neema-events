@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wedding Planner - [Ton Nom]</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #fffafc;
+      color: #333;
+    }
+    header {
+      background-image: url('https://source.unsplash.com/1600x900/?wedding');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #b85c8e;
+    }
+    .btn {
+      background-color: #b85c8e;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1em;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li {
+      margin: 10px 0;
+    }
+    .testimonial {
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+    .contact form input, .contact form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f8f2f4;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Neema Events</h1>
+    <p>Créatrice d’instants magiques, planificatrice de bonheur.</p>
+    <a href="#contact" class="btn">Réserver un appel gratuit</a>
+  </header>
+
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Moi, c’est Cornélia 🌿<br>
+    Passionnée par l’amour, l’organisation et les petits détails qui font la différence, j’aide les futurs mariés à vivre leur jour J sereinement.<br>
+    Je crée avec vous un mariage à votre image : romantique, fun, atypique… mais surtout inoubliable.</p>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Mes prestations</h2>
+    <ul>
+      <li>✨ Organisation complète : de l’idée au jour J</li>
+      <li>✨ Organisation partielle : une partie seulement à gérer</li>
+      <li>✨ Coordination du jour J : vous profitez, je gère</li>
+      <li>✨ Escape game de mariage : pour une animation originale !</li>
+      <li>✨ Espace enfants & baby-sitter : pour des parents détendus</li>
+    </ul>
+    <a href="#contact" class="btn">Demander un devis</a>
+  </section>
+
+  <section id="portfolio">
+    <h2>Moments magiques</h2>
+    <img src="https://source.unsplash.com/600x400/?wedding-decor" alt="Décoration" width="100%">
+    <img src="https://source.unsplash.com/600x400/?wedding-couple" alt="Couple" width="100%">
+    <img src="https://source.unsplash.com/600x400/?wedding-flowers" alt="Fleurs" width="100%">
+  </section>
+
+  <section id="testimonials">
+    <h2>Témoignages</h2>
+    <p class="testimonial">"Merci pour ton écoute et ta gentillesse, notre mariage était parfait !" – Claire & Thomas</p>
+    <p class="testimonial">"L’escape game a fait un carton, tout le monde a adoré." – Julie & Maxime</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>📧 Email : <a href="mailto:tonadresse@email.com">tonadresse@email.com</a><br>
+       📱 Instagram : <a href="https://instagram.com/toncompte" target="_blank">@toncompte</a></p>
+
+    <form action="https://formspree.io/f/[remplace-par-ton-id]" method="POST">
+      <input type="text" name="nom" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <input type="text" name="date" placeholder="Date du mariage">
+      <textarea name="message" placeholder="Parlez-moi de votre projet..." rows="5" required></textarea>
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 [Neema Events] - Wedding Planner | Site réalisé avec 💕
+  </footer>
+
+</body>
+</html>
